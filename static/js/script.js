@@ -2,8 +2,6 @@ const btn = document.querySelector("#btn");
 const input = document.querySelector("#name");
 const namePlace = document.querySelector("#name_place");
 
-console.log(btn);
-
 btn.addEventListener("click", () => {
   console.log("sending request...");
   const options = {
